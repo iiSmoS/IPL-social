@@ -1,18 +1,18 @@
 # IPL Social
 
-## Auteur
-- **Nom :** Ismet
-- **Prénom :** Ismet
-- **Email :** ismet.ismet@student.vinci.be
+## Author
+- **Last Name:** [Ismet]
+- **First Name:** [Ismet]
+- **Email:** [Ismet]
 
-## URL du projet
+## Project URL
 [https://github.com/iiSmoS/IPL-social.git]
 
 ## Description
-Ce projet « IPL social » est un exemple d'application JavaScript pour démontrer l'intégration continue (CI) via GitHub Actions.  
-Il contient une pipeline CI pour tester automatiquement les modifications apportées au code.
+This project "IPL social" is a sample JavaScript application to demonstrate continuous integration (CI) using GitHub Actions.  
+It includes a CI pipeline to automatically test code changes.
 
-## Commandes utiles
-### Lancer les tests :
+## Useful Commands
+### Run tests:
 ```bash
 npm test
