@@ -7,6 +7,11 @@ function passwordChecker(password) {
     if (!specialCharPattern.test(password)) {
     return false;
     }
+
+    const numberPattern = /\d/;
+    if (!numberPattern.test(password)) {
+        return false;
+    }
   
     return true;
   }
