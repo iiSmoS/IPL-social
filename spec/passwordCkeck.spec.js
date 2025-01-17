@@ -7,4 +7,9 @@ describe('passwordChecker', () => {
     expect(passwordChecker('short1!')).toBe(false);
   });
 
+  it('should return false if the password does not contain a special character', () => {
+    expect(passwordChecker('password123')).toBe(false);
+    expect(passwordChecker('123456789')).toBe(false);
+  });
+
 });
