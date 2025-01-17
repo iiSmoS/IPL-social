@@ -12,6 +12,11 @@ function passwordChecker(password) {
     if (!numberPattern.test(password)) {
         return false;
     }
+
+    const forbiddenPattern = /ipl/i;
+    if (forbiddenPattern.test(password)) {
+        return false;
+    }
   
     return true;
   }

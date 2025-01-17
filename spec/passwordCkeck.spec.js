@@ -17,6 +17,11 @@ describe('passwordChecker', () => {
     expect(passwordChecker('TestPassword!')).toBe(false);
     expect(passwordChecker('|@#Test!')).toBe(false);
   });
-  
+
+  it('should return false if the password contains the string "IPL"', () => {
+    expect(passwordChecker('myPasswordIPL!1')).toBe(false);
+    expect(passwordChecker('ipl!password123')).toBe(false);
+    expect(passwordChecker('Ipl@password123')).toBe(false);
+  });
 
 });
